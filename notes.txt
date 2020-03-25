@@ -1,0 +1,54 @@
+*
+Rotas / Recursos
+*/
+
+/*
+* Méttodos HTTP:
+*
+* GET: Buscar uma Informação do back-end
+* POST: Criar uma informação no back-end
+* PUT: Alterar uma informação no back-end
+* DELETE: Deletar informação no back-end
+*/
+
+/**
+* Tipos de parâmetros
+* Query Params: Parâmetros nomeados enviados na rota após "?" (filtros, paginação)
+* Route Params: Parâmetros utilizados para indetificar recursos
+* Request Body: Corpo da raquisição, ultilizado oara criar ou alterar recursos
+*/
+
+/**
+ * SQL: MySQL, SQLite, PostgreSQL, Oracle, Microdft SQL Server
+ * NoSQL: MongoDB, CouchDB, etc...
+ */
+
+/**
+ * Driver: SELECT * FROM users
+ * Query Builder: table('users').select('*').where()
+ */
+
+ Entidades e Funcionalidades
+
+    Entidades
+        Tudo o que representa algo que vai ser salvo no banco de dados
+            - ONG
+            - Caso (incident)
+    
+    Funcionalidades
+        O que as Entidades podem fazer dentro da aplicação
+            - Login de ONG
+            - cadastro de ONG
+            - Logout de ONG
+            - Cadastrar novos casos
+            - Deletar casos
+            - Listar Casos específicos de uma ONG
+            - Listar Todos os Casos
+            - Entrar em contato com a ONG
+
+Criar tabela: npx knex migrate:make nome_do_que_está_sendo_feito
+Executar a criação da tablema: npx knex migrate:latest
+Verificar o que já foi feito: npx knex migrate:status
+
+OBS.:
+    - Todo controller precisa importar a conexão com o banco de dados
