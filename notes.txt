@@ -52,3 +52,4 @@ Verificar o que já foi feito: npx knex migrate:status
 
 OBS.:
     - Todo controller precisa importar a conexão com o banco de dados
+    - useState para salvar alterações na página ex: const [variável, função-para-setar-variável] = useState('')
