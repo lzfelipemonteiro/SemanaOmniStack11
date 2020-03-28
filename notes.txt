@@ -64,3 +64,28 @@ Aplicativo
 React
     Carregar uma informação assim que o computador iniciar precisa do  useEffect
     mostar informações em tela precisa do useState
+
+Validação
+    npm install celebrate
+
+Para Exportação
+    Js:
+        module.exports = -o que vai ser exportado-
+    node: 
+        export default -o que vai ser exportado-
+
+Depoly
+    heroku
+        preço: caro
+        possui plano gratuito para testes
+    digital ocena
+        precificação previsível
+    nelify (Front End)
+        possui plano gratuito para testes
+        caro
+
+Estudo
+    Padrões de código: ESLint, Prettier
+    Autenticação JWT
+    Styled Component
+
